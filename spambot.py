@@ -5,7 +5,7 @@ bot.owner = "BOT OWNER"
 @bot.command("spam")
 def spam_command(chat, message, args):
     """Spam For big Groups!
-    This command send the word "spam"
+    This command send the word "spam" using the syntaxis markdown
     """ 
     for i in range (Number):
         chat.send("*SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM*")
